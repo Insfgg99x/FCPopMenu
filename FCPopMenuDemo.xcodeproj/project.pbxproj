@@ -26,6 +26,12 @@
 		C30902C61E76333000E961F1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C30902B81E76333000E961F1 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		C30902C71E76333000E961F1 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C30902BA1E76333000E961F1 /* View+MASAdditions.m */; };
 		C30902C81E76333000E961F1 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C30902BD1E76333000E961F1 /* ViewController+MASAdditions.m */; };
+		C30902D01E7643D700E961F1 /* recruit_new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C30902CA1E7643D700E961F1 /* recruit_new@2x.png */; };
+		C30902D11E7643D700E961F1 /* recruit_new@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C30902CB1E7643D700E961F1 /* recruit_new@3x.png */; };
+		C30902D21E7643D700E961F1 /* sence_new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C30902CC1E7643D700E961F1 /* sence_new@2x.png */; };
+		C30902D31E7643D700E961F1 /* sence_new@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C30902CD1E7643D700E961F1 /* sence_new@3x.png */; };
+		C30902D41E7643D700E961F1 /* sence_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C30902CE1E7643D700E961F1 /* sence_search@2x.png */; };
+		C30902D51E7643D700E961F1 /* sence_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C30902CF1E7643D700E961F1 /* sence_search@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +75,12 @@
 		C30902BB1E76333000E961F1 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		C30902BC1E76333000E961F1 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		C30902BD1E76333000E961F1 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		C30902CA1E7643D700E961F1 /* recruit_new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recruit_new@2x.png"; sourceTree = "<group>"; };
+		C30902CB1E7643D700E961F1 /* recruit_new@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recruit_new@3x.png"; sourceTree = "<group>"; };
+		C30902CC1E7643D700E961F1 /* sence_new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sence_new@2x.png"; sourceTree = "<group>"; };
+		C30902CD1E7643D700E961F1 /* sence_new@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sence_new@3x.png"; sourceTree = "<group>"; };
+		C30902CE1E7643D700E961F1 /* sence_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sence_search@2x.png"; sourceTree = "<group>"; };
+		C30902CF1E7643D700E961F1 /* sence_search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sence_search@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,7 @@
 		C30902791E762F1C00E961F1 = {
 			isa = PBXGroup;
 			children = (
+				C30902C91E7643D700E961F1 /* Resources */,
 				C30902A31E76333000E961F1 /* Masonry */,
 				C309029C1E762F2D00E961F1 /* FCPopMenu */,
 				C30902841E762F1C00E961F1 /* FCPopMenuDemo */,
@@ -168,6 +181,19 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		C30902C91E7643D700E961F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C30902CA1E7643D700E961F1 /* recruit_new@2x.png */,
+				C30902CB1E7643D700E961F1 /* recruit_new@3x.png */,
+				C30902CC1E7643D700E961F1 /* sence_new@2x.png */,
+				C30902CD1E7643D700E961F1 /* sence_new@3x.png */,
+				C30902CE1E7643D700E961F1 /* sence_search@2x.png */,
+				C30902CF1E7643D700E961F1 /* sence_search@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,6 +225,7 @@
 				TargetAttributes = {
 					C30902811E762F1C00E961F1 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9P9D2224EQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -226,10 +253,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30902D51E7643D700E961F1 /* sence_search@3x.png in Resources */,
+				C30902D41E7643D700E961F1 /* sence_search@2x.png in Resources */,
+				C30902D01E7643D700E961F1 /* recruit_new@2x.png in Resources */,
 				C30902BE1E76333000E961F1 /* Info.plist in Resources */,
 				C30902951E762F1C00E961F1 /* LaunchScreen.storyboard in Resources */,
 				C30902921E762F1C00E961F1 /* Assets.xcassets in Resources */,
+				C30902D21E7643D700E961F1 /* sence_new@2x.png in Resources */,
+				C30902D31E7643D700E961F1 /* sence_new@3x.png in Resources */,
 				C30902901E762F1C00E961F1 /* Main.storyboard in Resources */,
+				C30902D11E7643D700E961F1 /* recruit_new@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +407,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9P9D2224EQ;
 				INFOPLIST_FILE = FCPopMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xgf.FCPopMenuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -385,7 +420,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9P9D2224EQ;
 				INFOPLIST_FILE = FCPopMenuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xgf.FCPopMenuDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
