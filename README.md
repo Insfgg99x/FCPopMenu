@@ -9,7 +9,7 @@ An easy,friendly and customizable way to make a popover menu.
 ###Installation 安装
 >Cocoapods
 
-pod "FCPopMenu", "~>1.0"
+pod "FCPopMenu", "~>1.1"
 
 Use `pod repo update` if not exist.
 
