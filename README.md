@@ -139,3 +139,14 @@ Hide
     [self.list removeFromSuperview];
 }
 ```
+>About Me 关于我
+
+- Blog:     [CGPointZeero](http://cgpointzero.top)
+- GitHub:   [Insfgg99x](https://github.com/Insfgg99x)
+- Mooc:     [CGPointZero](http://www.imooc.com/u/3909164/articles)
+- Jianshu:  [CGPointZero](http://www.jianshu.com/users/c3f2e8c87dc4/latest_articles)
+- Email:    [newbox0512@yahoo.com](mailto:newbox0512@yahoo.com)
+-------------------------------------------------------------
+@CGPoitZero
+
+![](http://upload-images.jianshu.io/upload_images/937405-e91a649f7a7df2a0.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
