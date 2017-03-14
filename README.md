@@ -52,7 +52,7 @@ NSArray *items=@[[FCPopMenuItem itemWithImage:[UIImage imageNamed:@"sence_new"]
                                                action:@selector(listClickAction:)]];
 ```
 
->ZHPopMenu
+>FCPopMenu
 
 Create a popover menu like this
 像这样创建一个下拉菜单
