@@ -182,7 +182,15 @@ typedef enum : NSUInteger {
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     FCPopMenuItem *item=[_items objectAtIndex:indexPath.row];
+    A:
+    if(item.handler){
+        
+        item.handler(item);
+    }
+    
+    B:
     [item.target performSelectorOnMainThread:item.action withObject:item waitUntilDone:YES];
+    //mark: A、B实现一种就行了
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     

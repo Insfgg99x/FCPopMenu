@@ -72,6 +72,24 @@
     
     if(!_list){
         
+        //A:
+        NSArray *names=@[@"新建剧情",@"发布招募",@"搜一搜"];
+        NSArray *imgs=@[@"sence_new",@"recruit_new",@"sence_search"];
+        NSMutableArray *items=[NSMutableArray array];
+        __weak typeof(self) wkself=self;
+        for(int i=0;i<names.count;i++){
+            
+            FCPopMenuItem *item=[FCPopMenuItem itemWithImage:[UIImage imageNamed:imgs[i]]
+                                                       title:names[i]
+                                                  titleColor:[UIColor whiteColor]
+                                                     handler:^(FCPopMenuItem *sender) {
+                                                        
+                                                         [wkself listClickAction:sender];
+                                                     }];
+            [items addObject:item];
+        }
+        /*
+        B:
         NSArray *items=@[[FCPopMenuItem itemWithImage:[UIImage imageNamed:@"sence_new"]
                                                 title:@"新建剧情"
                                            titleColor:[UIColor whiteColor]
@@ -87,6 +105,8 @@
                                            titleColor:[UIColor whiteColor]
                                                target:self
                                                action:@selector(listClickAction:)]];
+         */
+        //mark:A 或者 B 用一种就行了。
         _list=[FCPopMenu menuWithFrame:CGRectMake(kFCPopMenuWidth-143, 64, 138, 140) trangleHeight:10 tranglePosition:CGPointMake(112, 0) items:items];
         _list.mainColor=[UIColor colorWithRed:73/255.f green:73/255.f blue:73/255.f alpha:1.f];
         _list.rowHeight=43.5;
