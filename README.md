@@ -1,5 +1,6 @@
 ##FCPopMenu
 
+#Introduction
 An easy,friendly and customizable way to make a popover menu.
 
 容易、友好且可定制的下拉菜单
@@ -9,7 +10,7 @@ An easy,friendly and customizable way to make a popover menu.
 ###Installation 安装
 >Cocoapods
 
-pod "FCPopMenu", "~>1.1"
+pod "FCPopMenu", "~>2.0"
 
 Use `pod repo update` if not exist.
 
@@ -33,23 +34,15 @@ Download `FCPopMenu`,drag folder "FCPopMenu" into your project, make sure to ues
                                                target:self
                                                action:@selector(listClickAction:)];
 ```
-or mutable items
+or like this
 ```
-NSArray *items=@[[FCPopMenuItem itemWithImage:[UIImage imageNamed:@"sence_new"]
-                                                title:@"新建剧情"
-                                           titleColor:[UIColor whiteColor]
-                                               target:self
-                                               action:@selector(listClickAction:)],
-                         [FCPopMenuItem itemWithImage:[UIImage imageNamed:@"recruit_new"]
-                                                title:@"发布招募"
-                                           titleColor:[UIColor whiteColor]
-                                               target:self
-                                               action:@selector(listClickAction:)],
-                         [FCPopMenuItem itemWithImage:[UIImage imageNamed:@"sence_search"]
-                                                title:@"搜一搜"
-                                           titleColor:[UIColor whiteColor]
-                                               target:self
-                                               action:@selector(listClickAction:)]];
+[FCPopMenuItem itemWithImage:[UIImage imageNamed:imgs[i]]
+                      title:names[i]
+                 titleColor:[UIColor whiteColor]
+                    handler:^(FCPopMenuItem *sender) {
+
+                        [wkself listClickAction:sender];
+                    }];
 ```
 
 >FCPopMenu
