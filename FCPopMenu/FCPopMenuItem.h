@@ -22,12 +22,15 @@ typedef void(^FCPopMenuItemHandler)(FCPopMenuItem *sender);
 @property(nonatomic,strong)UIColor              *titleColor;
 @property(nonatomic,strong)UIColor              *selectedColor;//default nil
 @property(nonatomic,copy)FCPopMenuItemHandler   handler;
-//v1.0 、 v1.1
-+(instancetype)itemWithImage:(UIImage *)image title:(NSString *)title titleColor:(UIColor *)color target:(id)target action:(SEL)action;
--(instancetype)initWithImage:(UIImage *)image title:(NSString *)title titleColor:(UIColor *)color target:(id)target action:(SEL)action;
 
 //v2.0
 +(instancetype)itemWithImage:(UIImage *)image title:(NSString *)title titleColor:(UIColor *)color handler:(FCPopMenuItemHandler)handler;
 -(instancetype)initWithImage:(UIImage *)image title:(NSString *)title titleColor:(UIColor *)color handler:(FCPopMenuItemHandler)handler;
+
+
+///////////////////////////deprecated/////////////////////////////
+//v1.0
++(instancetype)itemWithImage:(UIImage *)image title:(NSString *)title titleColor:(UIColor *)color target:(id)target action:(SEL)action kFCPopMenuDeprecated("已废弃,请使用itemWithImage:title:titleColor:handler:");
+-(instancetype)initWithImage:(UIImage *)image title:(NSString *)title titleColor:(UIColor *)color target:(id)target action:(SEL)action kFCPopMenuDeprecated("已废弃,请使用initWithImage:title:titleColor:handler:");
 
 @end
