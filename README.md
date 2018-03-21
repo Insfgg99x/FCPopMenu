@@ -1,13 +1,13 @@
-##FCPopMenu
+# FCPopMenu
 
-#Introduction
+# Introduction
 An easy,friendly and customizable way to make a popover menu.
 
 容易、友好且可定制的下拉菜单
 
 ![Effection](./demo.png)
 
-###Installation 安装
+### Installation 安装
 >Cocoapods
 
 pod "FCPopMenu", "~>2.0"
@@ -22,7 +22,7 @@ Download `FCPopMenu`,drag folder "FCPopMenu" into your project, make sure to ues
 
 下载FCPopMenu，并将"FCPopMenu"引用到项目中，确保勾选"create group if need"。
 
-###Useage 使用
+### Useage 使用
 
 >FCPopMenuItem
 
